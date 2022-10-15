@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SAI GURUKUL ACADEMY</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto&display=swap" rel="stylesheet">
+	
+	<style>
+
+		.img-wrapper{
+			position: relative;
+		}
+		.img-wrapper-text{
+		  top: 80%;
+		  left: 50%;
+			position: absolute;
+			transform: translate(-50%, -50%);
+		}
+		._font_roboto{
+			font-family: 'Roboto', sans-serif;
+		}
+		._font_roboto_h{
+			font-family: 'Alkalami', serif;
+		}
+		#_bg_info, #_bg_dark, #_bg_success{
+			transition: transform .3s;
+		}
+		#_bg_info:hover,#_bg_dark:hover,#_bg_success:hover{
+			transform: scale(1.1);
+		}
+		._img_student{
+			width: auto;
+			height: 400px;
+			background: url('./images/student_vector.jpg');
+			background-color: rgba(255,255,255,0.9);
+			 background-blend-mode: overlay;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		@media (max-width: 575.98px) {
+			.img-wrapper-text{
+				top: 50% !important;
+			}
+			.img-wrapper-text h2{
+				font-size: 14px !important;
+				padding: 10px !important;
+			}
+			.img-wrapper-text p{
+				font-size: 12px !important;
+				padding: 10px !important;
+			}
+			._img_student p{
+				display : none;
+			}
+		}
+	</style>
+  </head>
+  <body>
+              <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container">
+                  <a class="navbar-brand _font_roboto_h" href="index.html"><img src="images/book.png" height="30px"> SAI GURUKUL ACADEMY</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav  ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home
+                          <span class="visually-hidden">(current)</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="info.html">Info</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+			  
+	<div class="img-wrapper">
+		<img src="./images/banner.jpeg" class="img-fluid">
+		<div class="img-wrapper-text text-center">
+			<h2 class="bg-danger p-3 text-white _font_roboto_h">Give Your Children The Best Education & Future</h2>
+			<p class="bg-danger p-3 text-white"><i>The End of Education is Character - Bhagawan Sri Sai Baba</i></p>
+		</div>
+	</div>
+		<div class="container">
+			<div class="text-center mt-3">
+				<h2 class="text-primary _font_roboto_h">OUR MISSION</h2>
+				<i>"A man without egostic pride is liked by everyone.<br>
+					The man without hatred is free from grief. <br>
+					One who has given up desire is free from worries,<br>
+					Overcoming greed becomes happy".
+				</i>
+				<p class="text-primary">- Bhagawan Sri Sathya Sai Baba</p>
+			</div>
+			<div class="row mt-5">
+				<div class="col-md-6">
+					<img src="./images/hall.jpeg" class="img-fluid">
+				</div>
+				<div class="col-md-6">
+					<h3 class="_font_roboto_h text-primary font-weight-bold">Welcome to Sai Gurukul Academy</h3>
+					<p style="text-align: justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						The word “Vidhya" originates from the Sanskrit root "Vid" In English language, the equivalent term Sanskrit foot
+						"Education". The word Education itself is a derivative of Latin term "Educe”, which means to become knowledgeable 
+						and enlightened. <br>
+
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;Education is a process of seeking truth, The method
+						used in this process is that of garnering information about the 
+						subjects and objects that a person becomes associated the
+						and the situations that he comes across. Assimilation of such
+						information into a person's life confers the light of awareness
+						and renders him knowledgeable, thus, ushering in a process of
+						gradual transformation, strengthening his character and
+						enabling him to excel in every aspect of life.
+						</p>
+						<div class="text-end">
+							<a href="about.html" class="btn btn-primary rounded-5">Read More..</a>
+						</div>
+				</div>
+			</div>
+			
+			<div class="row text-center mt-5">
+				<div class="col-md-4 bg-info text-white pt-3 pb-2" id="_bg_info">
+					<h4 class="_font_roboto_h">Quality Education</h4>
+					<p class="mt-2">Our Institute primrily focus on the Quality Education that nourishes the Young Minds for better future.</p>
+				</div>
+				<div class="col-md-4 bg-dark text-white pt-3 pb-2" id="_bg_dark">
+					<h4 class="_font_roboto_h">Hostel Facility</h4>
+					<p class="mt-2">We aslo provide excellent Hostel Facility for the students who wish to stay Home Away Home Hostel.</p>
+				</div>
+				<div class="col-md-4 bg-success text-white pt-3 pb-2" id="_bg_success">
+					<h4 class="_font_roboto_h">Extra Curricular Activity</h4>
+					<p class="mt-2">Apart from education we engage students with extra curricular activities which helps them to explore the area of Interest. </p>
+				</div>
+			</div>
+		</div>
+		<div class="mt-5 _img_student">
+			<div class="text-center" style="z-index: 1">
+				<div class="container" style="padding-top: 5%;">
+					<h2 class="_font_roboto_h text-dark" style="font-size: 60px !important">We are the best for your Children.</h2>
+					<i>"A man without egostic pride is liked by everyone.<br>
+					The man without hatred is free from grief. <br>
+					One who has given up desire is free from worries,<br>
+					Overcoming greed becomes happy".
+				</i>
+				<p class="text-primary">- Bhagawan Sri Sathya Sai Baba</p>
+				<a class="btn btn-danger rounded-4" href="contact.html">Contact Us</a>
+				</div>
+			</div>
+		</div>
+		<div class="bg-primary">
+			<div class="container pt-3">
+				<div class="row">
+					<div class="col-md-3 text-center text-white">
+						<h3 class="_font_roboto_h ">SAI GURUKUL ACADEMY</h3>	
+				<i>"Education for life not merely for making a living".
+				</i>
+				<p class="text-primary">- Bhagawan Sri Sathya Sai Baba</p>
+					</div>
+					<div class="col-md-3">
+						<h4 class="_font_roboto_h text-white">Menu</h4>
+                      <ul style="list-style-type:none;" class="text-white">
+					  <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home
+                          <span class="visually-hidden">(current)</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                    </ul>						
+					</div>
+					<div class="col-md-3  text-white">
+					<h4 class="_font_roboto_h">Opening Hours</h4>
+					<p>Monday to Firday</p>
+					<p>Saturday and Sunday Closed</p>
+					</div>
+					<div class="col-md-3 text-white">
+						<h4 class="_font_roboto_h text-white">Quick Contacts</h4>
+						<p>Email: ncsaischools@gmail.com <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;binugurung14@icloud.com</p>
+						<p>Phone: 7908686437/ 8116030915</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
